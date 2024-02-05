@@ -17,6 +17,7 @@ This project focuses on building a housing price prediction model using machine 
    - seaborn==0.11.2
    - scikit-learn==0.24.2
    - joblib==1.1.0
+   - pickle
 
 3. Run the Jupyter Notebook: Open the "Housing_Price_Prediction.ipynb" file and execute the code cells.
 
@@ -38,7 +39,7 @@ This project focuses on building a housing price prediction model using machine 
 - Additional metrics such as MAE and RMSE are calculated for both Linear Regression and Random Forest models.
 
 ## Model Persistence
-- The trained Linear Regression model is saved using both Pickle and Joblib for future use.
+- The trained Random Forest model is saved using both Pickle and Joblib for future use.
 
 ## Predictions
 - The saved model is loaded, and predictions are made on new data.
@@ -46,8 +47,8 @@ This project focuses on building a housing price prediction model using machine 
 ## Files
 - Housing_Price_Prediction.ipynb: Jupyter Notebook containing the code.
 - housing.csv: Dataset file (California).
-- model_pickle: Pickle file containing the trained Linear Regression model.
-- House_Model_Joblib.joblib: Joblib file containing the trained Linear Regression model.
+- model_pickle: Pickle file containing the trained Random Forest model.
+- House_Model_Joblib.joblib: Joblib file containing the trained Random Forest model.
 
 
 
